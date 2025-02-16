@@ -11,10 +11,6 @@ app.use(express.json());
 
 // Generate a random short ID
 
-
-
-
-
 function generateShortId() {
   return crypto.randomBytes(4).toString('hex');
 }
