@@ -7,8 +7,6 @@ const port = 3000;
 // In-memory storage for URLs
 const urlDatabase = {};
 
-
-
 app.use(express.json());
 
 // Generate a random short ID
